@@ -1,0 +1,184 @@
+:root {
+  /* Colors */
+  --mainColor: #cc063e;
+  --secondColor: #fd9407;
+  --thirdColor: #10898b;
+  --smoothColor: #e2d9c2;
+  --paragraphColor: #3f261c;
+}
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: var(--paragraphFont);
+  font-size: 100%;
+  line-height: 1;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(161, 161, 161, 0.342) 50%,
+      rgba(255, 255, 255, 0.274) 100%
+    ),
+    url(https://images.unsplash.com/photo-1484821582734-6c6c9f99a672?q=80&w=1933&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 800px;
+  position: relative;
+  color: var(--paragraphColor);
+}
+
+.nav-links {
+  display: flex;
+  justify-content: flex-end;
+  padding: 40px;
+  align-items: center;
+  gap: 20px;
+}
+
+.nav-links a {
+  display: flex;
+  font-size: 20px;
+  font-weight: 600;
+  color: black;
+}
+
+.top-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 50px;
+}
+
+.logo {
+  display: flex;
+  height: 80px;
+  width: 50px;
+}
+
+.maintext {
+  height: 550px;
+  display: flex;
+  color: var(--paragraphColor);
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.maintext h1 {
+  background: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(5px);
+  color: var(--paragraphColor);
+  margin: 2px;
+  font-weight: 600;
+}
+
+.maintext h3 {
+  background: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(5px);
+  color: var(--paragraphColor);
+  margin: 2px;
+  font-weight: 600;
+}
+
+.button-container {
+  display: flex;
+  width: auto;
+  height: auto;
+  padding: 20px;
+  margin: -200px auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.book-button {
+  padding: 10px;
+  background-color: var(--mainColor);
+  color: var(--paragraphColor);
+  font-weight: 700;
+  font-size: large;
+  border: none;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+
+.book-button:hover {
+  background-color: var(--smoothColor);
+  cursor: pointer;
+}
+
+.servicios {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 90%;
+}
+
+.seccion-servicios {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  /* repeat(auto-fit , minmax(min(100%,40rem),1fr)); */
+  width: 90%;
+  gap: 20px;
+}
+
+.presentation-cards {
+  gap: 20px;
+  background-color: #e2d9c2;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.img-cards {
+  background-image: url("https://www.obicex.es/sites/obicex/files/styles/blog_desktop/public/images/blog/que-son-las-gafas-realidad-virtual.jpg?itok=HYaGdYZp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: auto;
+  height: 150px;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+
+footer{
+  display: flex;
+  background-color: var(--secondColor);
+  height: auto;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 50px;
+
+}
+
+form {
+  margin-top: 100px;
+}
+
+footer .footerleft,
+footer .footerright {
+  padding: 0px 20px;
+  margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 599px){
+  
+}
+
+@media only screen and (min-width: 600px) and (max-width: 991px){
+
+}
+
+@media only screen and (min-width: 992px){
+  
+}
+
+
+
+
